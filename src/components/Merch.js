@@ -17,7 +17,7 @@ function Item({ item, addToCart}){
     console.log(item)
     return (
         <div className="item">
-            <img onClick={() => addToCart(item)} className="item_image" src={`https://jzt7fhb86p.us-east-2.awsapprunner.com${item.image}`} />
+            <img onClick={() => addToCart(item)} className="item_image" src={item.image} />
             <p className="item_name">{item.name}</p>
             <p className="item_price">{item.price}</p>
             <select id={`size_${item.id}`} >{item.sizes.map(size => (<option value={size}>{size}</option>))}</select>

@@ -22,7 +22,7 @@ function PaymentForm({ amount, showPaymentForm, setShowPaymentForm, cartItems })
         event.preventDefault();
         setLoading(true);
         
-        const csrf = await axios.get("http://localhost:8000/api/get-csrf");
+        const csrf = await axios.get("https://jzt7fhb86p.us-east-2.awsapprunner.com/api/get-csrf");
         const csrfToken = csrf.data['csrf_token'];
         axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
 
@@ -32,7 +32,7 @@ function PaymentForm({ amount, showPaymentForm, setShowPaymentForm, cartItems })
 
         try {
             // Create a PaymentIntent on the backend
-            const { data: { clientSecret } } = await axios.post('http://localhost:8000/api/create-payment-intent/', {
+            const { data: { clientSecret } } = await axios.post('https://jzt7fhb86p.us-east-2.awsapprunner.com/api/create-payment-intent/', {
                 amount: amount * 100, // Convert amount to cents
                 cartItems: cartItems, 
             });

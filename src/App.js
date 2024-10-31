@@ -75,6 +75,7 @@ function App(){
 
   useEffect(() => {
     axios.get('https://jzt7fhb86p.us-east-2.awsapprunner.com/api/hello')
+    //axios.get('http://127.0.0.1:8000/api/hello')
       .then(response => {
         setItems(response.data);
         setLoading(false);
