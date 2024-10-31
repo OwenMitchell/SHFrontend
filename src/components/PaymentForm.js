@@ -26,12 +26,15 @@ function PaymentForm({ amount, showPaymentForm, setShowPaymentForm, cartItems })
         const csrfToken = csrf.data['csrf_token'];
         axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
 
+        
+
         if (!stripe || !elements) {
             return;
         }
 
         try {
-            // Create a PaymentIntent on the backend
+            console.log(csrfToken);
+           // Create a PaymentIntent on the backend
             const { data: { clientSecret } } = await axios.post('https://jzt7fhb86p.us-east-2.awsapprunner.com/api/create-payment-intent/', {
                 amount: amount * 100, // Convert amount to cents
                 cartItems: cartItems, 
