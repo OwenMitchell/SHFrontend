@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SHFrontend/static/css/main.4724494a.css",
+    "main.js": "/SHFrontend/static/js/main.a5db951a.js",
+    "static/js/453.8ab44547.chunk.js": "/SHFrontend/static/js/453.8ab44547.chunk.js",
+    "static/media/SH_1.png": "/SHFrontend/static/media/SH_1.086fb49fbd1f3c568ed1.png",
+    "static/media/SH_2.png": "/SHFrontend/static/media/SH_2.fdf36540f5b170e297cc.png",
+    "static/media/IMG_0678.JPG": "/SHFrontend/static/media/IMG_0678.5d498a8bb5ce4ca132d3.JPG",
+    "static/media/BebasNeue-Regular.ttf": "/SHFrontend/static/media/BebasNeue-Regular.12e3683f9192436a7be8.ttf",
+    "static/media/bandcamp_50.jpg": "/SHFrontend/static/media/bandcamp_50.4003040acb566ff06901.jpg",
+    "static/media/logo.svg": "/SHFrontend/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SHFrontend/index.html",
+    "main.4724494a.css.map": "/SHFrontend/static/css/main.4724494a.css.map",
+    "main.a5db951a.js.map": "/SHFrontend/static/js/main.a5db951a.js.map",
+    "453.8ab44547.chunk.js.map": "/SHFrontend/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4724494a.css",
+    "static/js/main.a5db951a.js"
+  ]
+}
