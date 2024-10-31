@@ -1,0 +1,6 @@
+form.payment_form{
+    display: grid;
+    grid-template-columns: 300px;
+    justify-self: center;
+    padding-bottom: 50px;
+}

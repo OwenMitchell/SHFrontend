@@ -1,0 +1,7 @@
+
+
+header.App-header{
+    font-family: 'bebas-neue';
+    background-color: black;
+    font-size: calc(.1 * max(100vh, 100vw))
+}

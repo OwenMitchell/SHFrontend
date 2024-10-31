@@ -1,0 +1,12 @@
+div.cart{
+    width: 50%;
+    justify-self: center;
+}
+
+p.cart_total{
+    text-align: right;
+}
+
+div.checkout{ 
+  justify-self: center;
+}

@@ -1,0 +1,10 @@
+div.gallery{
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+img.gallery_img{
+    height: 500px;
+}

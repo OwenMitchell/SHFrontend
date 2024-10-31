@@ -1,0 +1,16 @@
+.social{
+    height: 40px;
+}
+
+div.App-footer{
+    height: 100px;
+    background-color: black;
+    justify-items: center;
+}
+
+footer{
+    padding-top: 30px;
+    width: 150px;
+    display: grid; 
+    grid-template-columns: 50px 50px 50px;
+}

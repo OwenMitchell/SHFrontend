@@ -1,0 +1,26 @@
+div.merch{
+    justify-self: center;
+}
+
+div.merch_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2{
+    font-family: 'bebas-neue';
+    text-align: center;
+    font-size: calc(max(.03 * max(100vh, 100vw), 2em))
+
+}
+
+div.item{
+    padding: 50px;
+    width: 200px;
+    display: grid; 
+    grid-template-rows: 200px 20px 40px;
+}
+
+img.item_image{
+    height: 200px;
+}
